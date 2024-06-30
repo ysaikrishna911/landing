@@ -1,0 +1,136 @@
+g="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Community</title>
+    
+    <style> 
+       body{
+            font-family:"Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url("https://img.freepik.com/premium-photo/d-render-sports-car-with-lights-goes-camera-black-background_161488-1054.jpg");
+            background-size:cover;
+            background-position: center;   
+      
+        
+               }
+     header {
+            padding: 0em;
+            text-align: center;
+            color:rgb(238, 230, 219);
+            font-size: xx-large;
+            font-family:"Quicksand", sans-serif;
+            text-align-last: center;
+            text-transform: uppercase;
+            height: 20px;
+        }
+        header:hover {
+            color: #544d39;
+        }
+    
+        
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #7a6b6b;
+            text-decoration: none;
+            padding: 3em;
+            margin: 0 1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.5s;
+            height: 40px;
+        }
+        nav a:hover {
+            color: #ff9900;
+            transform: scale(1.05);
+        }
+        .hero {
+            height: 15px;
+            display:inline;
+            justify-content:center;
+            color:darkgray;
+            text-align: center;
+            padding: 2px;
+            font-size:large;
+            font-family:"Quicksand", sans-serif;
+        } 
+        .hero h1 {
+            font-size:3em;
+            padding-top: 4px;
+            
+        }
+        .main-content {
+            padding: 2em;
+        }
+        .car-card {
+            background-image:flex;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 218, 218, 0.1);
+            overflow:auto;
+            margin-bottom: 68px;
+            transition: transform 0.3s ease-in-out;
+            color:darkgray;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .car-card:hover {
+            transform: scale(1.05);
+        }
+    -
+        .car-details {
+            padding: 1em;
+            color: darkgray;
+            display: flex;
+        }
+        a{
+            text-decoration:none;
+            color:darkgray;
+            font-family:"Montserrat", sans-serif;;
+            font-size: 20px;
+
+        }
+        .car-details a:hover {
+            color: #ff9900;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CustomCraze-Autospace</h1>
+    </header>
+    <div class="hero">
+        <h1>Welcome to our Car garage </h1>
+    </div>
+    <nav>
+        <a href="home.html">services</a>
+        <a href="mods.html">mods</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="main-content">
+        <div class="car-card">
+                <div class="car-details">
+                <a href="seals.html">cars for seals</a>
+                            </div>
+        </div>
+        <div class="car-card">
+            <div class="car-details">
+                <a href="mods.html">special modifications works </a>
+                    </div>
+                    </div>
+    <div class="car-card">
+        <div class="car-details">
+        
+               
+        </div>
+    </div>
+   
+</html>
